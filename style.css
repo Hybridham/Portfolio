@@ -1,7 +1,94 @@
+* {
+    text-decoration: none;
+}
+
 .navbar {
     background-color: lightgray;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.items {
+    float: right;
+}
+
 li {
+    list-style: none;
     padding-right: 40px;
+}
+
+.section1 {
+    background-color: lightgrey;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.container-1 {
+    position: relative;
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile-text {
+    position: relative;
+    border: 3px solid green;
+    width: 70vh;
+    margin: 50px;
+}
+
+.profile-content {
+    display: block;
+}
+
+.read-me {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: lightsalmon;
+
+}
+
+.profile-pic {
+    height: 300px;
+    width: 250px;
+    margin: 50px;
+    border: 3px solid orange;
+
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border: 3px solid red;
+    width: 180px;
+    height: 300px;
+    margin: 30px;
 }
