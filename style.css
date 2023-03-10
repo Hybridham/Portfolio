@@ -3,7 +3,17 @@
     scroll-behavior: smooth;
 }
 
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
 .navbar {
+    position: fixed;
+    width: 100%;
+    margin-top: -65px;
+    z-index: 1;
     background-color: lightgray;
 }
 
@@ -30,15 +40,14 @@ li {
 }
 
 section {
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 0px 0px 15px 5px rgb(53, 53, 53);
 }
 
 .section1 {
     background-color: lightgrey;
     height: auto;
     width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
+    margin: 50px auto;
 }
 
 .container-1 {
